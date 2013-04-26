@@ -1,7 +1,7 @@
 <?php 
 
 // Set the numbers to call
-$numbers = array("+818040643515", "+818054381615", "+818070038513");
+$numbers = array("+8180xxxxxxxx", "+8180xxxxxxxx", "+8180xxxxxxxx");
 $number_index = isset($_REQUEST['number_index']) ? $_REQUEST['number_index'] : "0";
 $DialCallStatus = isset($_REQUEST['DialCallStatus']) ? $_REQUEST['DialCallStatus'] : "";
 
