@@ -15,7 +15,7 @@ $to= $_REQUEST['to_called'];
 $to_sent = $_REQUEST['called'];
 
 /* TwiML(callback.php)が格納されているフォルダをサーバーのURLを指定*/
-$url = 'http://hello.twilio.jp/clicktocall/';
+$url = 'http://yourserverURL/clicktocall/';
 
 $client = new Services_Twilio($AccountSid, $AuthToken);
 

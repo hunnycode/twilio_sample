@@ -4,5 +4,5 @@
 ?>
 <Response>
     <Say language="ja-jp">画面の転送先電話番号に電話をかけます。</Say>
-    <Dial><?php echo $_REQUEST['number']?></Dial>
+    <Dial callerId="+8150xxxxyyyy"><?php echo $_REQUEST['number']?></Dial>
 </Response>
