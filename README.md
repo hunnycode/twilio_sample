@@ -17,7 +17,7 @@ twilio_sample
 ②アカウント情報や発信用電話番号を設定。<br>
 
 【update:2013.9.25】<br>
-・sample Name : Twilio Poll System<br>
+・sample Name : Questionnaire<br>
 画面に表示されている電話番号に電話をかけて番号を入力すると画面の数字が変わる投票システム。<br>
 
 □ 実行方法
