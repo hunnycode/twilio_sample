@@ -57,46 +57,46 @@
           <li class="active"><a href="#home" data-toggle="tab"><img src="image/logo/twilio_logo_very_small-20.jpg"></a></li>
           <li><a href="#call" data-toggle="tab">匿名通話</a></li>
         </ul>
-      <div class="tab-content">
-      <div class="tab-pane active" id="home">
-        <section id="home">
-          <div align="left"><br />
-            <p><font size="10"><b>クラウド電話API twilio</b></font></p>
-            Twilio for KDDI Web Communications公式ページ<br />
-            <a href="http://twilio.kddi-web.com">Twilio for KDDI Web Communications</a><br />
-            Twilio for KDDI Web Communications Facebookページ<br />
-            <a href="https://www.facebook.com/TwilioforKWC">Twilio for KDDI Web Communications Facebook</a>
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <section id="home">
+              <div align="left"><br />
+                <p><font size="10"><b>クラウド電話API twilio</b></font></p>
+                Twilio for KDDI Web Communications公式ページ<br />
+                <a href="http://twilio.kddi-web.com">Twilio for KDDI Web Communications</a><br />
+                Twilio for KDDI Web Communications Facebookページ<br />
+                <a href="https://www.facebook.com/TwilioforKWC">Twilio for KDDI Web Communications Facebook</a>
+              </div>
+              <br />
+            </section>
           </div>
-          <br />
-        </section>
-      </div>
-      <div class="tab-pane" id="call">
-        <section id="call">
-          <form class="form-horizontal" id="call" name="call">
-            <div class="row">
-              <div class="span7">
-                <table>
-                  <tr>
-                    <td>
-                      <div class="control-group success">
-                        <label class="control-label" for="inputSuccess"><font color="black">発信先電話番号</font></label>
-                        <div class="controls">
-                          <input type="text" class="input-xlarge" id="in_tel_to" name="in_tel_to" />
-                        </div>
-                      </div>
-                      <div class="control-group success">
-                        <label class="control-label" for="inputSuccess"><font color="black">受信先電話番号</font></label>
-                        <div class="controls">
-                          <input type="text" class="input-xlarge" id="out_tel_to" name="out_tel_to" />
-                        </div>
-                      </div>
-                    </td>
-                    <td valign="top">
-                      <div class="span3">
-                        <fieldset>
-                          <div class="control-group">
-                            <label class="control-label" for="select01">ファイル</label>
+          <div class="tab-pane" id="call">
+            <section id="call">
+              <form class="form-horizontal" id="call" name="call">
+                <div class="row">
+                  <div class="span7">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="control-group success">
+                            <label class="control-label" for="inputSuccess"><font color="black">発信先電話番号</font></label>
                             <div class="controls">
+                              <input type="text" class="input-xlarge" id="in_tel_to" name="in_tel_to" />
+                            </div>
+                          </div>
+                          <div class="control-group success">
+                            <label class="control-label" for="inputSuccess"><font color="black">受信先電話番号</font></label>
+                            <div class="controls">
+                              <input type="text" class="input-xlarge" id="out_tel_to" name="out_tel_to" />
+                            </div>
+                          </div>
+                        </td>
+                        <td valign="top">
+                          <div class="span3">
+                            <fieldset>
+                              <div class="control-group">
+                                <label class="control-label" for="select01">ファイル</label>
+                                <div class="controls">
 <?php
   $dir = "your sound file Path";
   echo "<select name='soundList' id='soundList'>";
@@ -114,18 +114,18 @@
   }
   echo "</select>";
 ?>
-                            </div>
+                                </div>
+                              </div>
+                            </fieldset>
                           </div>
-                        </fieldset>
+                        </td>
+                      </tr>
+                    </table>
+                    <div class="control-group">
+                      <div class="controls">
+                        <input type="submit" class="btn btn-large btn-danger" id="callBtn" name="callBtn" value="Call" />
                       </div>
-                    </td>
-                  </tr>
-                </table>
-                  <div class="control-group">
-                    <div class="controls">
-                      <input type="submit" class="btn btn-large btn-danger" id="callBtn" name="callBtn" value="Call" />
                     </div>
-                  </div>
                   </div>
                   <div class="span5">
                     <div class="result"></div>
