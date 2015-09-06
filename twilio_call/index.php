@@ -26,22 +26,21 @@
                 "action":action,
               },
 
-            success: function(data, dataType) {
-              alert("架電成功");
-            },
+              success: function(data, dataType) {
+                alert("架電成功");
+              },
 
-            error: function(XMLHttpRequest, textStatus, errorThrown) {
-              alert('Error : ' + errorThrown);
-            }
-          });
-
-          //サブミット後、ページをリロードしないようにする
-          return false;
+              error: function(XMLHttpRequest, textStatus, errorThrown) {
+                alert('Error : ' + errorThrown);
+              }
+            });
+            //サブミット後、ページをリロードしないようにする
+            return false;
           });
         });
       });
     </script>
-  </head>
+ </head>
   <body>
     <div class="container">
       <table width="100%">
@@ -117,11 +116,11 @@
 ?>
                             </div>
                           </div>
-                         </fieldset>
-                        </div>
-                      </td>
-                    </tr>
-                  </table>
+                        </fieldset>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
                   <div class="control-group">
                     <div class="controls">
                       <input type="submit" class="btn btn-large btn-danger" id="callBtn" name="callBtn" value="Call" />
