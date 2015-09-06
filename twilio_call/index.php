@@ -40,7 +40,7 @@
         });
       });
     </script>
- </head>
+  </head>
   <body>
     <div class="container">
       <table width="100%">
